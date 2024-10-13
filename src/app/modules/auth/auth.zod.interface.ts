@@ -11,3 +11,10 @@ export const Zod_Register_Type = z.object({
     })
 })
 
+export const Zod_Login_Type = z.object({
+    body: z.object({
+        email: z.string(),
+        password: z.string()
+    })
+})
+
