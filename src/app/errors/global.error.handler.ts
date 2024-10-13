@@ -3,7 +3,7 @@ import httpStatus from "http-status";
 import { ZodError, ZodIssue } from "zod";
 import Final_App_Error from "../class/Final_App_Error";
 
-export type Error_Source_Type = {
+type Error_Source_Type = {
     path: string | number,
     message: string,
 }[]
